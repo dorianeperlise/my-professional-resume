@@ -25,7 +25,7 @@ jobs:
             - name: Scan image with Trivy 
               uses: aquasecurity/trivy-action@v0.36.0 
               with: 
-                image-ref:  008508041996.dkr.ecr.us-east-1.amazonaws.com/my-repo:latest .
+                image-ref:  008508041996.dkr.ecr.us-east-1.amazonaws.com/my-repo:latest
                 format: table 
                 exit-code: 0
                 ignore-unfixed: true 
